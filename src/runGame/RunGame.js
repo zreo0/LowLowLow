@@ -13,5 +13,9 @@
         //初始化背景
         var bg = new Background();
         this.addChild(bg);
+        //添加地板集合
+        var mapFloor = new MapFloor();
+        this.addChild(mapFloor);
+        
     }
 })();

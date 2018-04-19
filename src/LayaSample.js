@@ -1,5 +1,8 @@
+// 全局变量
+var GAME_WIDTH  = 320;
+var GAME_HEIGHT = 568;
 //laya初始化
-var layaCanvas = Laya.init(320,568,Laya.WebGL);
+var layaCanvas = Laya.init(GAME_WIDTH, GAME_HEIGHT, Laya.WebGL);
 layaCanvas.style.position  = 'relative';
 //FPS
 Laya.Stat.show(0,0);
@@ -9,7 +12,7 @@ Laya.Stat.show(0,0);
 // Laya.stage.alignH = 'center';
 // 加载图片
 Laya.loader.load(
-    ['res/background.png'],
+    ['res/background.png', 'res/floor.png'],
     laya.utils.Handler.create(this, onLoaded), 
     laya.utils.Handler.create(this, onLoading, null, false)
 );
