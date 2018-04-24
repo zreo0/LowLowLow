@@ -4,7 +4,9 @@
      */
     function MapFloor(){
         MapFloor.__super.call(this);
-        //要移除的地板
+        // 初始化出生位置
+        this.addFloor(1);
+        // 要移除的地板
         this.dieFloorList = [];
         this.init();
     }
@@ -30,9 +32,9 @@
     /**
      * 增加地板
      */
-    _proto.addFloor = function(){
+    _proto.addFloor = function(type){
         var floor = new Floor();
-        floor.init();
+        floor.init(type);
         floor.once(Floor.OUT_COMPLETE, this, this.getFloor);
         floor.once(Floor.OUT_DIE, this, this.delFloor);
         this.addChild(floor);
@@ -41,7 +43,7 @@
      * 获取地板
      */
     _proto.getFloor = function(floor){
-         this.addFloor();
+         this.addFloor(2);
     }
     /**
      * 删除地板

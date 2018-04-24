@@ -21,21 +21,21 @@
     var _proto = Background.prototype;
     _proto.init = function() {
         var texture1 = Laya.loader.getRes('res/background.png');
-        //创建背景1
+        // 创建背景1
         this.bg1 = new laya.display.Sprite();
-        //绘制背景图1
+        // 绘制背景图1
         this.bg1.graphics.drawTexture(texture1, 0, 0, 320, 568);
-        //把背景1添加到当前容器对象里。
+        // 把背景1添加到当前容器对象里。
         this.addChild(this.bg1);
-        //创建背景2
+        // 创建背景2
         this.bg2 = new laya.display.Sprite();
-        //绘制背景图2
+        // 绘制背景图2
         this.bg2.graphics.drawTexture(texture1, 0, 0, 320, 568);
-        //设置背景2 的坐标。
+        // 设置背景2 的坐标。
         this.addChild(this.bg2);
-        //把第二个背景放到第一个背景屁股后面紧跟着
+        // 把第二个背景放到第一个背景屁股后面紧跟着
         this.bg2.pos(0, this.BG_HEIGHT);
-        //创建一个帧循环处理函数，用于背景位置的更新，实现背景滚动效果。
+        // 创建一个帧循环处理函数，用于背景位置的更新，实现背景滚动效果。
         Laya.timer.frameLoop(1, this, this.onLoop)
 
 

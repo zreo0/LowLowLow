@@ -22,19 +22,35 @@
     var _proto = Floor.prototype;
     
     //初始化
-    _proto.init = function(){
+    _proto.init = function(type){
         console.log('Floor Init');
         // 如果不开启autoSize 父容器的宽度和高度无法获取
         this.autoSize = true;
         // 初始化的时候将坐标放到屏幕下边
         // this.y = 568;
 
+        // 随机一个范围值 最小的也有3个块
+        var floorWidth = 0;
         // 初始化的时候将坐标放到屏幕下边
-        this.y = GAME_HEIGHT;
-        // y坐标取一个随机值 为什么是32 因为我们的整个素材是 32 * 20 拼起来的
-        // this.y = 32 * 6 + 32 * parseInt(8 * Math.random());
-        // x取一个随机值 现在是320以内的
-        this.x = parseInt(Math.random () * GAME_WIDTH);
+        if (type == 1) {
+            // 刚开始的地板，放在上面
+            this.y = 100;
+            // 从左侧初始化
+            this.x = 0; 
+            // 出生位置地板不生成新地板
+            this.newFloor = true;
+            // 出生位置地板宽度
+            floorWidth = 135;
+        } else {
+            // 其他地板 正常从下方生成
+            this.y = GAME_HEIGHT;
+            // y坐标取一个随机值 为什么是32 因为我们的整个素材是 32 * 20 拼起来的
+            // this.y = 32 * 6 + 32 * parseInt(8 * Math.random());
+            // x取一个随机值 现在是320以内的
+            this.x = parseInt(Math.random () * GAME_WIDTH);
+            // 随机生成地板宽度
+            floorWidth = 32 * (3 + parseInt(19 * Math.random()));
+        }
 
         if(this.bg == null){
             // 贴图纹理
@@ -45,13 +61,13 @@
             this.bg.y = -32;
             this.addChild(this.bg);
         }
-        // 随机一个范围值 最小的也有3个块
-        var floorWidth = 32 * (3 + parseInt(19 * Math.random()));
-        this.bg.graphics.drawTexture(this.bgTexture, 0, 0, 960, 84);
+        
+
+        // this.bg.graphics.drawTexture(this.bgTexture, 0, 0, 960, 84); 96
         // 这里用到了 Texture.createFromTexture 就是根据宽度和高度来截取一个图片并且返回一个Texture对象
-        this.bg.graphics.drawTexture(laya.resource.Texture.createFromTexture(this.bgTexture, 0, 0, floorWidth, 96), 0, 0, floorWidth, 96);
+        this.bg.graphics.drawTexture(laya.resource.Texture.createFromTexture(this.bgTexture, 0, 0, floorWidth, 45), 0, 0, floorWidth, 45);
         //创建一个帧循环处理函数
-        Laya.timer.frameLoop(1, this, this.onLoop);
+        // Laya.timer.frameLoop(1, this, this.onLoop);
     }
     //在地板上面添加物品
     _proto.addItem = function(){
@@ -66,7 +82,7 @@
         // 移动地板
         this.y -= 3;
          
-        if((this.y + this.height) < 0){
+        if ((this.y + this.height) < 0){
             // 判断整个floor是否不在屏幕里面了 如果不在了 移除当前floor
             Laya.timer.clear(this, this.onLoop);
             this.visible = false;
