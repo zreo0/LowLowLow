@@ -54,7 +54,7 @@
 
         if(this.bg == null){
             // 贴图纹理
-            this.bgTexture = Laya.loader.getRes('res/floor.png');
+            this.bgTexture = Laya.loader.getRes('floors/floors_01.png');
             this.bg = new laya.display.Sprite();
             this.bg.graphics.clear();
             // 将当前的坐标向上移动32 方便后面处理人物的位置

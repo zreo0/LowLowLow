@@ -25,6 +25,10 @@ asset.push({
     url:"res/role.json",
     type : Laya.Loader.ATLAS
 });
+asset.push({
+    url:"res/floors.json",
+    type : Laya.Loader.ATLAS
+});
 //加载图集资源
 Laya.loader.load(asset, laya.utils.Handler.create(this, onLoaded), laya.utils.Handler.create(this, onLoading, null, false));
 // ======加载资源======

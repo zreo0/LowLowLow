@@ -18,7 +18,7 @@
         this.addChild(this.bg);
         // 添加地板集合
         this.mapFloor = new MapFloor();
-        // this.addChild(this.mapFloor);
+        this.addChild(this.mapFloor);
         // 玩家
         this.player = new Player();
         this.player.x = GAME_WIDTH / 2;
