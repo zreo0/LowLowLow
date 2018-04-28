@@ -1,0 +1,332 @@
+{
+    "frames": {
+        "role_01.png": {
+            "frame": {
+                "h": 209,
+                "idx": 0,
+                "w": 102,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 209,
+                "w": 102,
+                "x": 42,
+                "y": 71
+            }
+        },
+        "role_02.png": {
+            "frame": {
+                "h": 211,
+                "idx": 0,
+                "w": 102,
+                "x": 103,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 211,
+                "w": 102,
+                "x": 42,
+                "y": 69
+            }
+        },
+        "role_03.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 0,
+                "y": 210
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 68
+            }
+        },
+        "role_04.png": {
+            "frame": {
+                "h": 214,
+                "idx": 0,
+                "w": 102,
+                "x": 206,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 214,
+                "w": 102,
+                "x": 42,
+                "y": 66
+            }
+        },
+        "role_05.png": {
+            "frame": {
+                "h": 215,
+                "idx": 0,
+                "w": 102,
+                "x": 103,
+                "y": 212
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 215,
+                "w": 102,
+                "x": 42,
+                "y": 65
+            }
+        },
+        "role_06.png": {
+            "frame": {
+                "h": 217,
+                "idx": 0,
+                "w": 102,
+                "x": 0,
+                "y": 423
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 217,
+                "w": 102,
+                "x": 42,
+                "y": 63
+            }
+        },
+        "role_07.png": {
+            "frame": {
+                "h": 215,
+                "idx": 0,
+                "w": 102,
+                "x": 206,
+                "y": 215
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 215,
+                "w": 102,
+                "x": 42,
+                "y": 65
+            }
+        },
+        "role_08.png": {
+            "frame": {
+                "h": 214,
+                "idx": 0,
+                "w": 102,
+                "x": 309,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 214,
+                "w": 102,
+                "x": 42,
+                "y": 66
+            }
+        },
+        "role_09.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 103,
+                "y": 428
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 68
+            }
+        },
+        "role_10.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 309,
+                "y": 215
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 68
+            }
+        },
+        "role_11.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 309,
+                "y": 428
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 60
+            }
+        },
+        "role_12.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 412,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 40
+            }
+        },
+        "role_13.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 412,
+                "y": 213
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 12
+            }
+        },
+        "role_14.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 412,
+                "y": 426
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 4
+            }
+        },
+        "role_15.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 515,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 12
+            }
+        },
+        "role_16.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 515,
+                "y": 213
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 40
+            }
+        },
+        "role_17.png": {
+            "frame": {
+                "h": 212,
+                "idx": 0,
+                "w": 102,
+                "x": 515,
+                "y": 426
+            },
+            "sourceSize": {
+                "h": 294,
+                "w": 150
+            },
+            "spriteSourceSize": {
+                "h": 212,
+                "w": 102,
+                "x": 42,
+                "y": 60
+            }
+        }
+    },
+    "meta": {
+        "image": "role.png",
+        "prefix": "role/",
+        "scale": "3"
+    }
+}

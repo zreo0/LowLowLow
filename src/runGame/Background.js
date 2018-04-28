@@ -36,8 +36,7 @@
         // 把第二个背景放到第一个背景屁股后面紧跟着
         this.bg2.pos(0, this.BG_HEIGHT);
         // 创建一个帧循环处理函数，用于背景位置的更新，实现背景滚动效果。
-        Laya.timer.frameLoop(1, this, this.onLoop)
-
+        // Laya.timer.frameLoop(1, this, this.onLoop);
 
     }
 

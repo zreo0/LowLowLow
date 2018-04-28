@@ -69,11 +69,11 @@
         //创建一个帧循环处理函数
         // Laya.timer.frameLoop(1, this, this.onLoop);
     }
-    //在地板上面添加物品
+    // 在地板上面添加物品
     _proto.addItem = function(){
         
     }
-    //获取当前地板上面的所有物品
+    // 获取当前地板上面的所有物品
     _proto.getItems = function(){
         return ;
     }

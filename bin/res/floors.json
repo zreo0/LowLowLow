@@ -1,0 +1,123 @@
+{
+    "frames": {
+        "floors_01.png": {
+            "frame": {
+                "h": 124,
+                "idx": 0,
+                "w": 147,
+                "x": 332,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 124,
+                "w": 147
+            },
+            "spriteSourceSize": {
+                "h": 124,
+                "w": 147,
+                "x": 0,
+                "y": 0
+            }
+        },
+        "floors_03.png": {
+            "frame": {
+                "h": 130,
+                "idx": 0,
+                "w": 107,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 182,
+                "w": 170
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 107,
+                "x": 28,
+                "y": 0
+            }
+        },
+        "floors_04.png": {
+            "frame": {
+                "h": 128,
+                "idx": 0,
+                "w": 98,
+                "x": 108,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 182,
+                "w": 170
+            },
+            "spriteSourceSize": {
+                "h": 128,
+                "w": 98,
+                "x": 36,
+                "y": 7
+            }
+        },
+        "floors_05.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 114,
+                "x": 0,
+                "y": 131
+            },
+            "sourceSize": {
+                "h": 182,
+                "w": 170
+            },
+            "spriteSourceSize": {
+                "h": 125,
+                "w": 114,
+                "x": 34,
+                "y": 9
+            }
+        },
+        "floors_06.png": {
+            "frame": {
+                "h": 148,
+                "idx": 0,
+                "w": 124,
+                "x": 207,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 182,
+                "w": 170
+            },
+            "spriteSourceSize": {
+                "h": 148,
+                "w": 124,
+                "x": 15,
+                "y": 3
+            }
+        },
+        "floors_07.png": {
+            "frame": {
+                "h": 106,
+                "idx": 0,
+                "w": 140,
+                "x": 115,
+                "y": 149
+            },
+            "sourceSize": {
+                "h": 182,
+                "w": 170
+            },
+            "spriteSourceSize": {
+                "h": 106,
+                "w": 140,
+                "x": 30,
+                "y": 25
+            }
+        }
+    },
+    "meta": {
+        "image": "floors.png",
+        "prefix": "floors/",
+        "scale": "1"
+    }
+}

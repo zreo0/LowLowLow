@@ -1,8 +1,19 @@
 D .
 R 4F008F46 background.png
 R 166E9756 floor.png
-R D1EDD32C player.atlas
+R 50057D51 floors_bak.png
+R D1EDD32C player.json
 R AC61DAA7 player.png
+R 44776DF9 role.json
+R A9F8A0A7 role.png
+R CCA9E087 role_bak.png
+D floors
+P 62556F43 floors_01.png
+P ED354FFB floors_03.png
+P 61CC7C7D floors_04.png
+P 26B9F790 floors_05.png
+P AA1D3B28 floors_06.png
+P BD37B96B floors_07.png
 D player
 P 67C61CF7 chara_01.png
 P 513F54F6 chara_02.png
@@ -20,3 +31,21 @@ P 5D5C15B5 chara_13.png
 P 8A063585 chara_14.png
 P 609E5E8C chara_15.png
 P 1375BB85 chara_16.png
+D role
+P D09A5405 role_01.png
+P 7967D6E5 role_02.png
+P 8BF72AD7 role_03.png
+P 6B63278E role_04.png
+P A8BEEE80 role_05.png
+P BC1AD713 role_06.png
+P 3B89AD16 role_07.png
+P A4F8EB6B role_08.png
+P 0613547D role_09.png
+P 149D7F77 role_10.png
+P 7986BBD9 role_11.png
+P 2E8035CD role_12.png
+P 62236C50 role_13.png
+P 75C1FAFE role_14.png
+P 4C7FD4FC role_15.png
+P B404D1A5 role_16.png
+P 3EB8FAE1 role_17.png

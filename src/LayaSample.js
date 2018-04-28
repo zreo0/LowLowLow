@@ -9,7 +9,7 @@ Laya.Stat.show(0,0);
 // //设置适配模式
 // Laya.stage.scaleMode = 'exactfit';
 // //设置居中对齐
-// Laya.stage.alignH = 'center';
+Laya.stage.alignH = 'center';
 // ======加载资源======
 var asset = [];
 // 单个资源
@@ -22,7 +22,7 @@ asset.push({
 });
 //加载图集资源
 asset.push({
-    url:"res/player.json",
+    url:"res/role.json",
     type : Laya.Loader.ATLAS
 });
 //加载图集资源
