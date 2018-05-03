@@ -22,7 +22,7 @@
         // 玩家
         this.player = new Player();
         this.player.x = GAME_WIDTH / 2;
-        this.player.y = GAME_HEIGHT - 100;
+        this.player.y = GAME_HEIGHT - 50;
         this.addChild(this.player);
         // 监听事件
 		Laya.stage.on(laya.events.Event.MOUSE_DOWN, this, this.onMouseDown);

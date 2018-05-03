@@ -118,6 +118,6 @@
     "meta": {
         "image": "floors.png",
         "prefix": "floors/",
-        "scale": "1"
+        "scale": "3"
     }
 }
